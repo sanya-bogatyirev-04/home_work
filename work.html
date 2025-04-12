@@ -2,25 +2,56 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <title>My HTML Form</Form></title>
   </head>
   <body>
     <h1 class="start_title">Random-images website</h1>
+    <h3 class="fact">This is my (may be) website</h3>
 
-    <h3 class="fact">This is my website</h3>
+    <form method="post" action="/login">
+      <label>
+        <span>Enter your login:</span>
+        <input
+          type="text"
+          id="login"
+          name="login"
+          placeholder="Your login"
+          minlength="3"
+          maxlength="10"
+          />
+        </label>
+        
+        <label for="email">Enter your email:</label>
+        <input 
+          type="email"
+          id="email" 
+          name="email" 
+          placeholder="Your email" 
+        />
 
-    <!-- <div class="container">
-      <div class="thumb">
-        <div><img data-index="0" /></div>
-        <div><img data-index="1" /></div>
-        <div><img data-index="2" /></div>
-        <div><img data-index="3" /></div>
-      </div>
-    </div> -->
+      <label for="password">Enter your password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Your password"
+        minlength="4"
+        maxlength="10"
+      />
 
-    <!-- <div class="buttons">
-      <button class="new">NEW</button>
-      <button class="play">STOP</button>
-    </div> -->
+      <label for="password">Repeate your password:</label>
+      <input
+        type="password"
+        id="password_repeat"
+        name="password_repeat"
+        placeholder="Your password"
+        minlength="4"
+        maxlength="10"
+      />
+
+      <button type="submit">Enter</button>
+      <button type="reset">Delete data</button>
+    </form>
 
     <selection class="list">
       <h3 class="nameOfList">What do we want?</h3>
@@ -29,7 +60,6 @@
         <li>More beautiful picture</li>
       </ol>
     </selection>
-
     <div class="containerPs">
       <p class="ps">
         Thank for using my website<a class="my_name">(by Aleksander)</a>
