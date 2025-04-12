@@ -39,6 +39,7 @@
         minlength="4"
         maxlength="10"
         required
+        onkeyup="check();"
       />
 
       <label for="password">Repeate your password:</label>
@@ -50,9 +51,11 @@
         minlength="4"
         maxlength="10"
         required
+        onkeyup="check();"
       />
 
-      <button type="submit">Enter</button>
+      <!-- <button type="button" id="just_button" >Save data</button> -->
+      <button type="submit" id="enter" disabled>Enter</button>
       <button type="reset">Delete data</button>
     </form>
 
