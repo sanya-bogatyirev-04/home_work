@@ -4,7 +4,5 @@ function check() {
     document.getElementById("password").value
   ) {
     return true;
-  } else {
-    return false;
-  }
+  } else { return false; }
 }
