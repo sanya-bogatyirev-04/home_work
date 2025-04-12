@@ -18,6 +18,12 @@ input{
   margin-top: 3px;
 }
 
+select{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
 form {
   margin-left: 15px;
 }
